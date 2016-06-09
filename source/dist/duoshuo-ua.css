@@ -1,0 +1,20 @@
+#ds-reset .ds-os,
+#ds-reset .ds-br,
+#ds-reset .ds-webmaster {
+	display: inline-block;
+	border-radius: .3em;
+	margin-left: .5em;
+	padding: .3em;
+}
+#ds-reset .ds-os {
+	color: white;
+	background: #38b39d;
+}
+#ds-reset .ds-br {
+	color: yellow;
+	background: #F76D58;
+}
+#ds-reset .ds-webmaster {
+	border: 1px solid #38b39d;
+	color: #38b39d;
+}

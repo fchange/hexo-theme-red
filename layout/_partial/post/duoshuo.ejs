@@ -1,0 +1,29 @@
+<div class="duoshuo">
+<div class="commentwrap comments-hidden" style="display: block;cursor: pointer;margin: 0px 0px 0px 20px;color:#222;">
+<% if(theme.fold_comments){ %>
+    <div id="fold-comments">查看评论</div></div>
+    <div class="comments-main" style="display: none;">
+<% }else{ %>
+    <div class="comments-main">
+<% } %>
+    	<div class="ds-thread" data-thread-key="<%=key%>" data-title="<%=title%>" data-url="<%=url%>"></div>
+	   
+	   
+		<link rel="stylesheet" href="<%=theme.CDN_PATH %>/dist/duoshuo-ua.css">
+        <!-- 第1部分：在embed.js之前定义duoshuoQuery和加载duoshuo-ua，两者顺序可以交换-->
+		<script src='<%=theme.CDN_PATH %>/dist/duoshuo-ua.js'></script>
+		
+		
+		<script type="text/javascript">
+    	var duoshuoQuery = {short_name:"<%=theme.duoshuo%>"};
+    	(function() {
+	    	var ds = document.createElement('script');
+		    ds.type = 'text/javascript';ds.async = true;
+    		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	    	ds.charset = 'UTF-8';
+		    (document.getElementsByTagName('head')[0] 
+		     || document.getElementsByTagName('body')[0]).appendChild(ds);
+	    })();
+	    </script>
+    </div>
+</div>

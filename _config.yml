@@ -1,0 +1,59 @@
+#主题修改版本,用于线上发布
+#theme_version: '1'
+
+# Header
+menu:
+  所有文章: /archives
+  随笔: /tags/随笔/
+  猎奇: /tags/猎奇/
+  留言打卡: /aboutme
+
+#CDN站点路径, 同域名则为空
+CDN_PATH: ""
+
+# Content
+excerpt_link: more
+fancybox: false
+mathjax: false
+
+# 是否开启动画效果
+animate: false
+
+# 是否在新窗口打开链接
+open_in_new: false
+
+# Miscellaneous
+#google_analytics: ''
+
+favicon: http://fangcheng0724.github.io/img/fang.png
+#你的头像url
+avatar: http://fangcheng0724.github.io/img/head.jpg
+#桌面快捷方式的图标
+#apple_touch_icon: http://weibo.com/favicon.ico
+#显示在网页标题栏的网站图标
+#shortcut_icon: http://weibo.com/favicon.ico
+#显示在侧边栏底部的标志
+#logo: http://images.missyuan.com/attachments/day_090901/20090901_26d53fd68595b3773beaH7sYHt89zOHT.png
+
+#关于我页面
+aboutme: "/aboutme/"
+#版权页面
+copyright: "/copyright/"
+
+
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo: fangcheng0724
+
+#博客内容不可被选中
+not_selectable: false
+#折叠评论
+fold_comments: false
+
+
+# 不蒜子网站计数设置
+# http://ibruce.info/2015/04/04/busuanzi/
+visit_counter:
+  on: true
+  site_visit: 海贼到访数
+  page_visit: 本页阅读量
