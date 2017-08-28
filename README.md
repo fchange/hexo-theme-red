@@ -6,6 +6,8 @@ hexo-theme-red
 
 可以点击我的[个人博客](http://fangc.coding.me/blog)查看效果
 
+![image](http://o7o8kqz7a.bkt.clouddn.com/%7BRME2UHXANCHL@P8V%7DW@OEY.png)
+
 ## install 安装
 
 ```
