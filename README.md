@@ -1,34 +1,16 @@
-hexo-theme-sausage
+hexo-theme-red
 ---
-**sausage 腊肠**
+**红绿色主题**
 
 基于[Hexo-Theme-Yilia](https://github.com/litten/hexo-theme-yilia), 喜欢的话拿去.
 
-可以点击我的[个人博客](http://qbeenslee.com)查看效果, 手机可以扫码:
-
-![demo](https://raw.githubusercontent.com/qbeenslee/ART/master/hexo-theme-sausage/03152016202908.png)
+可以点击我的[个人博客](http://fangc.coding.me/blog)查看效果
 
 ## install 安装
 
 ```
-git clone https://github.com/qbeenslee/hexo-theme-sausage.git themes/sausage
+git clone https://github.com/fchange/hexo-theme-red.git themes/sausage
 ```
-
-## update 更新
-
-```
-cd themes/sausage
-git pull
-```
-## art 效果预览
-
-PC端效果
-
-![](https://raw.githubusercontent.com/qbeenslee/ART/master/hexo-theme-sausage/03152016202909.png)
-
-移动端效果
-
-![](https://raw.githubusercontent.com/qbeenslee/ART/master/hexo-theme-sausage/03152016202907.png)
 
 
 ## config 配置
