@@ -1,12 +1,14 @@
-hexo-theme-red
----
+## hexo-theme-red Hexo-艳丽
+
 **红绿色主题**
 
 基于[Hexo-Theme-Yilia](https://github.com/litten/hexo-theme-yilia), 喜欢的话拿去.
 
 可以点击我的[个人博客](http://fangc.coding.me/blog)查看效果
 
-![image](http://o7o8kqz7a.bkt.clouddn.com/%7BRME2UHXANCHL@P8V%7DW@OEY.png)
+![截图效果](./prt.png)
+
+截图效果👆
 
 ## install 安装
 
